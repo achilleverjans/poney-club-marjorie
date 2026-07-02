@@ -34,6 +34,21 @@ export const metadata: Metadata = {
       "Un club d'équitation chaleureux pour enfants, au cœur de la nature belge. Cours, stages et pension de poneys.",
     type: 'website',
     locale: 'fr_BE',
+    url: 'https://poneyclubmarjorie.be',
+    siteName: 'Poney Club Marjorie',
+    images: [
+      {
+        url: 'https://poneyclubmarjorie.be/images/logo.jpg',
+        width: 673,
+        height: 673,
+        alt: 'Logo Poney Club Marjorie',
+      },
+    ],
+  },
+  icons: {
+    icon: '/images/logo.jpg',
+    apple: '/images/logo.jpg',
+    shortcut: '/images/logo.jpg',
   },
   robots: { index: true, follow: true },
 }
@@ -43,6 +58,7 @@ const jsonLd = {
   '@type': 'SportsActivityLocation',
   name: 'Poney Club Marjorie',
   image: 'https://poneyclubmarjorie.be/images/cadre%20du%20poney%20club.webp',
+  logo: 'https://poneyclubmarjorie.be/images/logo.jpg',
   url: 'https://poneyclubmarjorie.be',
   telephone: '+32488164812',
   email: 'poneyclubmarjorie@gmail.com',
