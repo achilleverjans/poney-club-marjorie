@@ -33,7 +33,7 @@ export default function Footer() {
               />
               <div>
                 <div className="font-serif font-bold text-xl text-white">Poney Club Marjorie</div>
-                <div className="text-cream-400 text-sm">Wavre, Belgique</div>
+                <div className="text-cream-400 text-sm">Mont-Saint-Guibert, Belgique</div>
               </div>
             </div>
             <p className="text-cream-300 text-sm leading-relaxed max-w-sm mb-6">
