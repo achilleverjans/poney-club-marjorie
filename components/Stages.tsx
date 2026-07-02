@@ -39,7 +39,7 @@ const stages = [
     icon: '🍂',
     title: 'Stage Toussaint',
     period: 'Vacances de novembre',
-    desc: "Les feuilles tombent, les poneys adorent l'automne ! Stage pour continuer à progresser pendant les congés scolaires dans une ambiance chaleureuse.",
+    desc: "Les feuilles tombent, les poneys adorent l'automne ! Stage pour continuer à progresser pendant les congés scolaires dans une atmosphère conviviale et colorée.",
     items: [
       'Stage de 5 jours ou à la journée',
       'Minimum 2 cours par jour (1h chaque)',
@@ -55,7 +55,7 @@ const stages = [
     icon: '❄️',
     title: 'Stage Noël',
     period: 'Vacances de décembre',
-    desc: 'Une magie particulière règne en hiver au club ! Terminez chaque journée avec une bonne soupe chaude et un chocolat chaud au coin du feu. Un stage inoubliable dans une ambiance de Noël.',
+    desc: 'Une magie particulière règne en hiver au club ! Terminez chaque journée avec une bonne soupe chaude et un chocolat chaud au coin du feu. Un moment unique dans l\'esprit de Noël.',
     items: [
       'Stage de 5 jours ou à la journée',
       'Minimum 2 cours par jour (1h chaque)',

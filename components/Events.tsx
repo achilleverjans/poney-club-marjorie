@@ -5,7 +5,7 @@ const events = [
   {
     emoji: '🎂',
     title: 'Anniversaire',
-    desc: 'Offrez à votre enfant un anniversaire inoubliable au milieu des poneys ! Une expérience unique pour célébrer avec les amis dans un cadre magique et convivial.',
+    desc: 'Offrez à votre enfant un anniversaire mémorable au milieu des poneys ! Un moment de bonheur partagé avec les amis, dans un cadre verdoyant et plein de vie.',
     features: [
       'Balade ou cours de poney inclus',
       'Accueil personnalisé',

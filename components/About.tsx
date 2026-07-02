@@ -7,12 +7,12 @@ const values = [
   {
     icon: '🛡️',
     title: 'Sécurité avant tout',
-    desc: "Casques homologués, matériel adapté et apprentissage dans un cadre sécurisé. Chaque enfant évolue à son rythme, avec bienveillance et dans le respect des poneys.",
+    desc: "Casques homologués, matériel adapté et encadrement attentif. Chaque enfant progresse à son rythme, dans le respect des animaux et en toute sécurité.",
   },
   {
     icon: '💚',
     title: 'Bienveillance & douceur',
-    desc: "Un environnement chaleureux où chaque enfant progresse à son rythme, sans pression, avec Marjorie passionnée et à l'écoute.",
+    desc: "Un espace de confiance où chaque enfant s'épanouit librement, sans compétition ni pression, guidé par Marjorie avec attention et enthousiasme.",
   },
   {
     icon: '🌿',
