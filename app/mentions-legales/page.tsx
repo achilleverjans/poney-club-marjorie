@@ -15,6 +15,7 @@ const sections = [
       { label: 'Adresse', value: 'Rue du Riquau 5, 1435 Mont-Saint-Guibert, Belgique' },
       { label: 'Téléphone', value: '0488 16 48 12' },
       { label: 'Email', value: 'poneyclubmarjorie@gmail.com' },
+      { label: 'N° TVA', value: 'BE1022414741' },
       { label: 'Pays', value: 'Belgique' },
     ],
   },
