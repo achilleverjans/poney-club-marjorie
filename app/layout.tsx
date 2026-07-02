@@ -157,6 +157,7 @@ const jsonLd = {
       sameAs: [
         'https://www.facebook.com/p/Poney-Club-Marjorie-61574694204608/',
         'https://www.instagram.com/poneyclubmarjorie/',
+        'https://maps.app.goo.gl/YGpBwofE3DUEuoPW7',
       ],
     },
     {
