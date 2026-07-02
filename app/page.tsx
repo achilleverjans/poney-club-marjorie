@@ -7,13 +7,14 @@ import Pension from '@/components/Pension'
 import Events from '@/components/Events'
 import GalerieAccueil from '@/components/GalerieAccueil'
 import Galerie from '@/components/Galerie'
+import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 
 export default function Home() {
   return (
-    <main>
+    <main id="main-content">
       <Navbar />
       <Hero />
       <About />
@@ -23,6 +24,7 @@ export default function Home() {
       <Events />
       <GalerieAccueil />
       <Galerie />
+      <FAQ />
       <Contact />
       <Footer />
       <WhatsAppButton />

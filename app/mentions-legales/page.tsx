@@ -2,9 +2,28 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Mentions légales | Poney Club Marjorie',
-  description: 'Mentions légales du Poney Club Marjorie — éditeur, hébergeur, propriété intellectuelle et protection des données.',
-  robots: { index: false, follow: false },
+  title: 'Mentions légales & Politique de confidentialité',
+  description: 'Mentions légales du Poney Club Marjorie — éditeur, hébergeur, TVA, propriété intellectuelle et politique de confidentialité (RGPD).',
+  alternates: { canonical: 'https://poneyclubmarjorie.be/mentions-legales' },
+  robots: { index: true, follow: true },
+}
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': 'https://poneyclubmarjorie.be/mentions-legales#webpage',
+  url: 'https://poneyclubmarjorie.be/mentions-legales',
+  name: 'Mentions légales | Poney Club Marjorie',
+  description: 'Mentions légales et politique de confidentialité du Poney Club Marjorie.',
+  inLanguage: 'fr-BE',
+  isPartOf: { '@id': 'https://poneyclubmarjorie.be/#website' },
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://poneyclubmarjorie.be' },
+      { '@type': 'ListItem', position: 2, name: 'Mentions légales', item: 'https://poneyclubmarjorie.be/mentions-legales' },
+    ],
+  },
 }
 
 const sections = [
@@ -32,18 +51,21 @@ const sections = [
 export default function MentionsLegales() {
   return (
     <main className="min-h-screen bg-cream-50">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
+      />
       {/* Header */}
       <div className="bg-earth-900 text-white py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-cream-300 hover:text-white text-sm mb-8 transition-colors"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-            Retour au site
-          </Link>
+          {/* Breadcrumb */}
+          <nav aria-label="Fil d'Ariane" className="mb-8">
+            <ol className="flex items-center gap-2 text-sm text-cream-400">
+              <li><Link href="/" className="hover:text-cream-200 transition-colors">Accueil</Link></li>
+              <li aria-hidden="true" className="text-cream-600">›</li>
+              <li className="text-cream-200" aria-current="page">Mentions légales</li>
+            </ol>
+          </nav>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold mb-3">Mentions légales</h1>
           <p className="text-cream-300 text-sm">Conformément à la loi belge du 11 mars 2003 sur les services de la société de l'information</p>
         </div>
@@ -81,7 +103,7 @@ export default function MentionsLegales() {
         </section>
 
         {/* Protection des données */}
-        <section>
+        <section id="rgpd">
           <h2 className="font-serif text-xl font-bold text-earth-900 mb-4">4. Protection des données personnelles (RGPD)</h2>
           <div className="prose prose-sm text-earth-700 space-y-3">
             <p>

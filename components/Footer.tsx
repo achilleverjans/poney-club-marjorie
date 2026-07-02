@@ -4,12 +4,14 @@ const links = {
   Club: [
     { label: 'Accueil', href: '#accueil' },
     { label: 'À propos', href: '#apropos' },
-    { label: 'Galerie', href: '#galerie' },
+    { label: 'FAQ', href: '#faq' },
+    { label: 'Blog', href: '/blog' },
     { label: 'Contact', href: '#contact' },
   ],
   Services: [
     { label: 'Cours d\'équitation', href: '#cours' },
     { label: 'Stages enfants', href: '#stages' },
+    { label: 'Événements', href: '#events' },
     { label: 'Pension & soins', href: '#pension' },
   ],
 }
@@ -93,7 +95,8 @@ export default function Footer() {
           </p>
           <div className="flex gap-5 text-xs text-cream-400">
             <a href="/mentions-legales" className="hover:text-cream-200 transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-cream-200 transition-colors">Politique de confidentialité</a>
+            <a href="/mentions-legales#rgpd" className="hover:text-cream-200 transition-colors">Politique de confidentialité</a>
+            <a href="/blog" className="hover:text-cream-200 transition-colors">Blog</a>
           </div>
         </div>
       </div>
