@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     shortcut: '/images/logo.jpg',
   },
   verification: {
-    google: 'cjUHCBS6LvqwQoShYbwPgNd4CtXyI0o3Y-dsJq402J0',
+    google: '9XYVPbDheFjzqb2ikpn0bPHZF-X66NFUIJaQv-X0km0',
   },
   robots: {
     index: true,
