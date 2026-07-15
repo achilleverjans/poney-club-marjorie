@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const playfair = Playfair_Display({
@@ -192,6 +193,7 @@ export default function RootLayout({
       <body>
         <a href="#main-content" className="skip-link">Aller au contenu principal</a>
         {children}
+        <Analytics />
       </body>
     </html>
   )
